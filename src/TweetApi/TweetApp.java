@@ -28,11 +28,7 @@ public class TweetApp extends HttpServlet {
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws IOException {
 	      // Do required initialization
 		  ConfigurationBuilder cf = new ConfigurationBuilder();
-		   cf.setDebugEnabled(true)
-			.setOAuthConsumerKey("8PYMcpjPM4QqhHvVZqswd491y")
-			.setOAuthConsumerSecret("qG1leVxCwF8jzDzyF9igM8A5d9ZlJEdHO7Pb79WVRhzYXRgxWY")
-			.setOAuthAccessToken("1046949435819749377-kvtBUPPJbQEF7XXvZdgD4Iz7XoRQkG")
-			.setOAuthAccessTokenSecret("YnkYdOehWh6uYJzbPNYjNb0nIev7bB4hqJvkv0cKnZ6te");
+
 	      	   
 	      // Set response content type
 		   resp.setContentType("text/html");
